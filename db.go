@@ -13,7 +13,7 @@ import (
 // initializeDB connects to MongoDB and returns a MongoDB client instance.
 func initializeDB() *mongo.Client {
 	
-	uri := "mongodb+srv://Library74:A4OTUvs11JoSQbJp@library.y35qs.mongodb.net"
+	uri := "mongodb+srv://Library74:A4OTUvs11JoSQbJp@library.y35qs.mongodb.net/"
 
 	// Set client options
 	clientOptions := options.Client().ApplyURI(uri)
